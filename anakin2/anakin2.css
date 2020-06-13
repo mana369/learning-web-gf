@@ -1,0 +1,134 @@
+.header {
+    height: 50px;
+    font-size: 28px;
+    font-style: bold;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: black;
+    text-align: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.container {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+.first {
+    width: 40%;
+    /*display: flex;
+    justify-content: flex-start;
+    flex-direction: column;*/
+}
+
+.second {
+    width: 60%;
+    /*display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;*/ 
+}
+
+.picture {
+    background-image: url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-style: bold;
+}
+
+/*main {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;  
+    line-height: 25px;
+}*/
+
+h2 {
+    font-size: 35px;
+    color: #222;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1 {
+    font-size: 65px;
+    color: #222;
+    margin-left: -25px;
+    padding: 0px;
+    margin-top: 1px;
+}
+
+
+.strong {
+    text-transform: capitalize;
+    font-size: 23px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+p, li, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+}
+
+blockquote {
+    background: #343434;
+    font-weight:bold;
+    color: white;
+    /*display: flex;*/
+    align-items: center;
+    line-height: 80px;
+    font-size: 40px;
+    margin-left: -40px;
+    margin-right: -40px;
+    width: 300px;
+    height: 350px;
+    position: relative;
+    /*padding-right: 40px;*/
+    padding-left: 20px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-bottom: 250px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+blockquote::before {
+    content: "\201C";
+    padding: 8px;
+    display: block;
+    position: absolute;
+    top: 25px;
+    left: 0px;
+    font-size: 100px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 0px;
+}
+
+/*hr {
+    height: 3px;
+    width:auto; 
+    background-color: black;
+    text-align:center; 
+    margin: auto;
+}*/
