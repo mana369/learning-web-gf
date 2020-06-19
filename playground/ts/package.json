@@ -5,12 +5,17 @@
   "main": "index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "test": "jest"
+    "test": "jest",
+    "test-coverage": "jest --coverage"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/node": "^14.0.13",
     "jest": "^26.0.1",
-    "ts-node": "^8.10.2"
+    "ts-jest": "^26.1.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
   }
 }
