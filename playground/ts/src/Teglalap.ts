@@ -1,5 +1,6 @@
+import { Sikidom } from "./Sikidom";
 
-class Teglalap implements Sikidom {
+export class Teglalap implements Sikidom {
     public a: number;
     public b: number;
 

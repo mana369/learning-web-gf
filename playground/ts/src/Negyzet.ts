@@ -1,3 +1,6 @@
+import { Kor } from "./Kor";
+import { Teglalap } from "./Teglalap";
+
 export class Negyzet extends Teglalap {
     constructor (a: number) {
         super(a, a);

@@ -1,4 +1,8 @@
-function kiir(sikidom: Sikidom) {
+import { Sikidom } from "./Sikidom";
+import { Kor } from "./Kor";
+import { Teglalap } from "./Teglalap";
+
+export function kiir(sikidom: Sikidom) {
     if (sikidom instanceof Kor) {
         console.log(`A ${sikidom.getTipus()} r = ${sikidom.r} , kerulete: ${sikidom.getKerulet()} es terulete: ${sikidom.getTerulet()}\n`);
     } else if (sikidom instanceof Teglalap) {

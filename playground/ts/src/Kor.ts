@@ -1,12 +1,16 @@
+import { Sikidom } from "./Sikidom";
+
 export class Kor implements Sikidom {
     constructor(public r: number) {}
 
     getKerulet() {
-        return 2 * this.r * Math.PI;
+        const kerulet = 2 * this.r * Math.PI;
+        return Math.trunc(kerulet * 1000) / 1000;
     }
 
     getTerulet() {
-        return Math.pow(this.r, 2) * Math.PI;
+        const terulet = Math.pow(this.r, 2) * Math.PI;
+        return Math.trunc(terulet * 1000) / 1000;
     }
 
     getTipus() {
