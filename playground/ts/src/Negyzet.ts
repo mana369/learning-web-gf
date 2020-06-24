@@ -11,7 +11,8 @@ export class Negyzet extends Teglalap {
     }
 
     getAtlo() {
-        return Math.sqrt(this.a * this.a + this.a * this.a);
+        const negyzetAtlo = Math.sqrt(this.a * this.a + this.a * this.a)
+        return Math.trunc(negyzetAtlo * 1000)/1000;
     }
 
     getBeirhatoKor(): Kor {

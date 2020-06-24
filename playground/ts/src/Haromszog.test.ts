@@ -1,6 +1,6 @@
 import { Haromszog } from "./Haromszog";
 
-test ('A haromszog oldalainak erteke.', () => {
+describe('Haromszog tesztek.', () => {
     const a = 3;
     const b = 5;
     const c = 7;
@@ -8,50 +8,32 @@ test ('A haromszog oldalainak erteke.', () => {
 
     const haromszog = new Haromszog(a, b, c, ma);
 
-    expect(haromszog.a).toBe(a);
-    expect(haromszog.b).toBe(b);
-    expect(haromszog.c).toBe(c);
-})
+    it('A haromszog oldalainak erteke.', () => {
 
-test ('A haromszog letezik.', () => {
-    const a = 3;
-    const b = 5;
-    const c = 7;
-    const ma = 4;
+        expect(haromszog.a).toBe(a);
+        expect(haromszog.b).toBe(b);
+        expect(haromszog.c).toBe(c);
+    });
 
-    //const haromszogLetezik = true;
-    const haromszog = new Haromszog(a, b, c, ma);
+    it('A haromszog letezik.', () => {
+        //const haromszogLetezik = true;
 
-    expect(haromszog.isLetezik()).toBeTruthy();
-})
+        expect(haromszog.isLetezik()).toBeTruthy();
+    });
 
-test ('A haromszog tipusanak erteke.', () => {
-    const a = 3;
-    const b = 5;
-    const c = 7;
-    const ma = 4;
+    it('A haromszog tipusanak erteke.', () => {
 
-    const haromszog = new Haromszog(a, b, c, ma);
+        expect(haromszog.getTipus()).toMatch("Haromszog");
+    });
 
-    expect(haromszog.getTipus()).toMatch("Haromszog");
-})
+    it('A haromszog teruletenek erteke.', () => {
 
-test ('A haromszog teruletenek erteke.', () => {
-    const a = 3;
-    const b = 5;
-    const c = 7;
-    const ma = 4;
-    const haromszog = new Haromszog(a, b, c, ma);
+        expect(haromszog.getTerulet()).toEqual(6);
+    });
 
-expect(haromszog.getTerulet()).toEqual(6);
-})
+    it('A haromszog keruletenek erteke.', () => {
+        
+        expect(haromszog.getKerulet()).toEqual(15);
+    });
 
-test ('A haromszog keruletenek erteke.', () => {
-    const a = 3;        
-    const b = 5;
-    const c = 7;
-    const ma = 4;
-    const haromszog = new Haromszog(a, b, c, ma);
-    
-expect(haromszog.getKerulet()).toEqual(15);
 })

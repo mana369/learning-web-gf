@@ -1,7 +1,19 @@
 import { Sikidom } from "./Sikidom";
 
 export class Kor implements Sikidom {
-    constructor(public r: number) {}
+    public _r: number;
+
+    constructor(r: number) {
+        this._r = r;
+    }
+
+    get r() {
+        return this._r;
+    }
+
+    get d() {
+        return this._r * 2;
+    }
 
     getKerulet() {
         const kerulet = 2 * this.r * Math.PI;
