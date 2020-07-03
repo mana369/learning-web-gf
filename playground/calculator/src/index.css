@@ -1,0 +1,23 @@
+.form {
+    width: 190px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+input {
+  width: 175px;
+  margin: 2px;
+  background-color: white;
+}
+
+.buttons div {
+  width: 100%;
+}
+
+button { 
+  margin: 2px;
+  width: 40px;
+}
+button :hover {
+  background-color: thistle;
+}
