@@ -67,7 +67,7 @@ describe('Sum and Contains function tests', function() {
   });
 });
 
-describe('min-max, bubbleSort test', function () {
+describe('min-max, bubbleSort test', function() {
   const testData1 = [3, 2, 3, 4];
   const testData2 = [0, 1, 2, 3, 4];
   const testData3 = [4, 3, 2, 1, 0];
@@ -91,10 +91,8 @@ describe('min-max, bubbleSort test', function () {
     expect(maxValue(testData3)).toBe(4);
 
     expect(maxValue(testData4)).toBe(-3);
-
-    expect(maxValue([])).toBe(null);
   });
-
+  
   it('bubbleSort test', () => {
     expect(bubbleSort(testData1)).toEqual(expect.arrayContaining([2, 3, 3, 4]));
 

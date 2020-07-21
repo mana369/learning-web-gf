@@ -1,0 +1,4 @@
+Mészáros János; 1989; 17;kávé
+Dobos Katalin;1989;20;sampon
+Winch Eszter;1996;12;merevlemez
+Tiszta Tamás;2001;30;autó illatosító

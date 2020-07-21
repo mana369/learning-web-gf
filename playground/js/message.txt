@@ -1,0 +1,6 @@
+Kedves %name%!
+
+Ez a levelet azért küldjünk önnek, mert ma van a %age%. születésnapja.
+Ezen alkalomból szeretnék megajándékozni egy %discount% % mértékű kedvezménnyel az ön által kedvelt %product% nevű termékre.
+
+Üdvözletel: Minta Kompánia.

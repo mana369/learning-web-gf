@@ -1,0 +1,33 @@
+[
+  [ 'Mészáros János', '1989', '17', 'kávé' ],
+  [ 'Dobos Katalin', '1989', '20', 'sampon' ],
+  [ 'Winch Eszter', '1996', '12', 'merevlemez' ],
+  [ 'Tiszta Tamás', '2001', '30', 'autó illatosító' ]
+]
+
+[
+  {
+    name: 'Mészáros János',
+    birtday: '1989',
+    discount: '17',
+    product: 'kávé'
+  },
+  {
+    name: 'Dobos Katalin',
+    birtday: '1989',
+    discount: '20',
+    product: 'sampon'
+  },
+  {
+    name: 'Winch Eszter',
+    birtday: '1996',
+    discount: '12',
+    product: 'merevlemez'
+  },
+  {
+    name: 'Tiszta Tamás',
+    birtday: '2001',
+    discount: '30',
+    product: 'autó illatosító'
+  }
+]
